@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA Bank</title>
+    <link rel="icon" href="./Images/Bank-Logo-PNG-HD-Quality.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./Bank-Logo-PNG-HD-Quality.png" alt="Bank logo" width="4%">
+        <nav>
+            <ul>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./reviews.html">Reviews</a></li>
+                <li><a href="./admin.html" id="admin">Admin Panel</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <a href="./login.html"><button>Login</button></a>
+            <a href="./registration.html"><button>Create an Account</button></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="sec1">
+            <h1>Login</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus excepturi perferendis. Repellendus iure magni temporibus eius omnis, quibusdam libero, quis saepe atque, amet distinctio incidunt consequatur consequuntur voluptatum dolorem!</p>
+        </section>
+
+        <section class="register-section">
+            <form id="form1">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <select name="adminChose" id="adminChose">
+                    <option value="member">Member</option>
+                    <option value="admin">Admin</option>
+                </select>
+                <input type="submit" value="Login" id="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./login.js" type="module"></script>
+</body>
+</html>
